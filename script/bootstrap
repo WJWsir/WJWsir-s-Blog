@@ -1,0 +1,7 @@
+# 1 step：Install node & Configure environment variable
+# 2 step：Install yarn
+> npm install --global yarn
+# 3 step: Install VuePress
+> yarn add -D vuepress
+# 4 finally: run
+> yarn docs:dev
