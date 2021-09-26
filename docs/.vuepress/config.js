@@ -25,7 +25,7 @@ module.exports = {
               { text: '2021', link: '/posts/2021/' }
             ]
           },
-          { 
+          {
             text: '技术&日记', items: [
               { text: '2021', link: '/tech-problems/2021/09/2021-09-22-scroll-bar-shift-specific-pixel' }
             ]
@@ -67,6 +67,13 @@ module.exports = {
           collapsable: false,
           children: [
             '05/2021-05-01-source-of-life',
+          ]
+        },
+        {
+          title: '九月',
+          collapsable: false,
+          children: [
+            '09/2021-09-26-empathy',
           ]
         },
       ],
