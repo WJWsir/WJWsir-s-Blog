@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>重命名Mysql数据库 | 从计算机走向计算机世界</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="为什么人与人之间的交流离不开问题">
+    
+    <link rel="preload" href="/WJWsir-s-Blog/assets/css/0.styles.a92da31d.css" as="style"><link rel="preload" href="/WJWsir-s-Blog/assets/js/app.9fd0cce6.js" as="script"><link rel="preload" href="/WJWsir-s-Blog/assets/js/2.a5a761b7.js" as="script"><link rel="preload" href="/WJWsir-s-Blog/assets/js/17.6572b232.js" as="script"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/10.dff610b1.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/11.f240baba.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/12.f8cafadb.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/13.57871fa2.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/14.5bc15005.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/15.0ad06a66.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/16.d2f9e0f2.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/3.e4f45ac2.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/4.b5c5d85a.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/5.1d09458f.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/6.7862f44a.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/7.ba10c7c0.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/8.1cdbb46f.js"><link rel="prefetch" href="/WJWsir-s-Blog/assets/js/9.e0723cf0.js">
+    <link rel="stylesheet" href="/WJWsir-s-Blog/assets/css/0.styles.a92da31d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/WJWsir-s-Blog/" class="home-link router-link-active"><!----> <span class="site-name">从计算机走向计算机世界</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/WJWsir-s-Blog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="博文" class="dropdown-title"><span class="title">博文</span> <span class="arrow down"></span></button> <button type="button" aria-label="博文" class="mobile-dropdown-title"><span class="title">博文</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          随笔&amp;日记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/WJWsir-s-Blog/posts/2021/" class="nav-link">
+  2021
+</a></li></ul></li><li class="dropdown-item"><h4>
+          技术&amp;日记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/WJWsir-s-Blog/tech-problems/2021/09/2021-09-22-scroll-bar-shift-specific-pixel.html" class="nav-link">
+  2021
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://www.github.com/WJWsir" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/WJWsir-s-Blog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="博文" class="dropdown-title"><span class="title">博文</span> <span class="arrow down"></span></button> <button type="button" aria-label="博文" class="mobile-dropdown-title"><span class="title">博文</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          随笔&amp;日记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/WJWsir-s-Blog/posts/2021/" class="nav-link">
+  2021
+</a></li></ul></li><li class="dropdown-item"><h4>
+          技术&amp;日记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/WJWsir-s-Blog/tech-problems/2021/09/2021-09-22-scroll-bar-shift-specific-pixel.html" class="nav-link">
+  2021
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://www.github.com/WJWsir" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>技术&amp;日记</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WJWsir-s-Blog/tech-problems/2021/09/2021-09-22-scroll-bar-shift-specific-pixel.html" class="sidebar-link">滚动条定位到某一列表项</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>十一月</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/WJWsir-s-Blog/tech-problems/2021/11/2021-11-28-rename-mysql-database.html" aria-current="page" class="active sidebar-link">重命名Mysql数据库</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/WJWsir-s-Blog/tech-problems/2021/11/2021-11-28-rename-mysql-database.html#一、问题或场景描述" class="sidebar-link">一、问题或场景描述</a></li><li class="sidebar-sub-header"><a href="/WJWsir-s-Blog/tech-problems/2021/11/2021-11-28-rename-mysql-database.html#二、解决方案" class="sidebar-link">二、解决方案</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="重命名mysql数据库"><a href="#重命名mysql数据库" class="header-anchor">#</a> 重命名Mysql数据库</h1> <h2 id="一、问题或场景描述"><a href="#一、问题或场景描述" class="header-anchor">#</a> 一、问题或场景描述</h2> <p>  Mysql必知必会一书中提供了数据库crashcourse，希望复制它的内容用于Aliyun JavaTech 学习，新的数据库名 databaseforjdbclearningofalijavacourse</p> <h3 id="环境信息"><a href="#环境信息" class="header-anchor">#</a> 环境信息</h3> <ul><li>Operating System: Windows 10</li> <li>Mysql Server Version: 8.0.11 for Win64 on x86_64 (MySQL Community Server - GPL)</li></ul> <h2 id="二、解决方案"><a href="#二、解决方案" class="header-anchor">#</a> 二、解决方案</h2> <h3 id="步骤一-创建空数据库"><a href="#步骤一-创建空数据库" class="header-anchor">#</a> 步骤一: 创建空数据库</h3> <p>  1. 使用DDL即Database Definition Language创建数据库
+注释：DDL全面为数据库定义语言，属于SQL</p> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token comment">-- Running using Mysql Client such as MySQL Command Line Client, MySQL Workbench...</span>
+<span class="token keyword">CREATE</span> <span class="token keyword">DATABASE</span> <span class="token punctuation">[</span><span class="token keyword">IF</span> <span class="token operator">NOT</span> <span class="token keyword">EXISTS</span><span class="token punctuation">]</span> databaseforjdbclearningofalijavacourse <span class="token punctuation">[</span><span class="token keyword">CHARSET</span><span class="token operator">=</span>utf8<span class="token punctuation">]</span>
+</code></pre></div><p>  或者使用mysqladmin工具创建数据库</p> <div class="language-cmd extra-class"><pre class="language-text"><code># Running using Windows Shell Such as cmd, powershell...
+mysqladmin -u { MysqlUsername } -p{ MysqlPasword } create databaseforjdbclearningofalijavacourse
+</code></pre></div><h3 id="步骤二-转储数据库"><a href="#步骤二-转储数据库" class="header-anchor">#</a> 步骤二: 转储数据库</h3> <p>  2 使用mysqldump工具创建crashcourse数据库的Login backups即逻辑副本
+注释：Login backups指的是一种复制表结构和数据而不复制实际数据文件的备份，mysqldump的作用是转储，它输出一组SQL语句，Mysql可以执行这些语句来重现原始数据库对象定义和表数据。</p> <div class="language-cmd extra-class"><pre class="language-text"><code>mysqldump -u { MysqlUsername } -p{ MysqlPasword } -R crashcourse &gt; crashcourse.sql
+# 1. -p 和密码之间没有 space
+# 2. -R 标志表示转储文件应保留所有 stored procedure 和 function
+</code></pre></div><h3 id="步骤三-还原数据库"><a href="#步骤三-还原数据库" class="header-anchor">#</a> 步骤三: 还原数据库</h3> <p>  3.使用mysql将转储文件(Dump File)亦可被称为SQL脚本(SQL Script)导入新数据库</p> <div class="language-sql extra-class"><pre class="language-sql"><code>SOURCE {Relative path }\crashcourse<span class="token punctuation">.</span><span class="token keyword">sql</span>
+</code></pre></div><p>  或者</p> <div class="language-cmd extra-class"><pre class="language-text"><code>mysql -u { MysqlUsername } -p{ MysqlPasword } databaseforjdbclearningofalijavacourse &lt; crashcourse.sql
+</code></pre></div><h3 id="步骤四-删除数据库"><a href="#步骤四-删除数据库" class="header-anchor">#</a> 步骤四: 删除数据库</h3> <p>  注释：可以不删除，如果担心操作失误，留有备份待日后删除保持数据库环境Clean</p> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token keyword">DROP</span> <span class="token keyword">DATABASE</span> <span class="token punctuation">[</span><span class="token keyword">IF</span> <span class="token keyword">EXISTS</span><span class="token punctuation">]</span> databaseforjdbclearningofalijavacourse
+</code></pre></div><p>  或者</p> <div class="language-cmd extra-class"><pre class="language-text"><code>mysqladmin -u { MysqlUsername } -p{ MysqlPasword } drop databaseforjdbclearningofalijavacourse
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/WJWsir-s-Blog/tech-problems/2021/09/2021-09-22-scroll-bar-shift-specific-pixel.html" class="prev">
+        滚动条定位到某一列表项
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/WJWsir-s-Blog/assets/js/app.9fd0cce6.js" defer></script><script src="/WJWsir-s-Blog/assets/js/2.a5a761b7.js" defer></script><script src="/WJWsir-s-Blog/assets/js/17.6572b232.js" defer></script>
+  </body>
+</html>
